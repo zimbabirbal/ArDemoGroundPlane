@@ -31,7 +31,7 @@ public class ARTapToPlaceObj : MonoBehaviour
     public InputField Scale;
 
     private float _defaultRotation = 25f;
-    private float _defaultScale = 0.5f;
+    private float _defaultScale = 0.01f;
     
     private void Awake()
     {
@@ -46,7 +46,7 @@ public class ARTapToPlaceObj : MonoBehaviour
         _aRRaycastManager = GetComponent<ARRaycastManager>();
 
         Rotate.text = "25";
-        Scale.text = "0.5";
+        Scale.text = "0.01";
     }
 
     // Update is called once per frame
